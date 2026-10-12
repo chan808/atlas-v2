@@ -1,0 +1,22 @@
+# Local secrets and environment
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Dependency caches and generated output
+node_modules/
+.gradle/
+target/
+build/
+dist/
+coverage/
+*.log
+
+# Local tools and operating system
+.idea/
+.DS_Store
+Thumbs.db
